@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagement.API", "StockManagement.API\StockManagement.API.csproj", "{6661DE06-3243-45B3-BA6D-9E4F3F9972DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagement.WEB", "StockManagement.WEB\StockManagement.WEB.csproj", "{255D037C-5DE8-43DA-8377-A9B72A53586B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6661DE06-3243-45B3-BA6D-9E4F3F9972DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6661DE06-3243-45B3-BA6D-9E4F3F9972DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6661DE06-3243-45B3-BA6D-9E4F3F9972DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6661DE06-3243-45B3-BA6D-9E4F3F9972DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255D037C-5DE8-43DA-8377-A9B72A53586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255D037C-5DE8-43DA-8377-A9B72A53586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255D037C-5DE8-43DA-8377-A9B72A53586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255D037C-5DE8-43DA-8377-A9B72A53586B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
